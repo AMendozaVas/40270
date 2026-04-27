@@ -1,0 +1,18 @@
+  <g id="logo-dvd">
+    <g transform="skewX(-16) translate(5, -20)">
+      <path d="M10,20 L10,50 L30,50 Q50,50 50,35 Q50,20 30,20 Z M22,28 L30,28 Q38,28 38,35 Q38,42 30,42 L22,42 Z" fill="" />
+      <path d="M40,20 L70,55 L91,20 L79,20 L68,40 L52,20 Z" fill="" />
+      <path d="M90,20 L90,50 L110,50 Q130,50 130,35 Q130,20 110,20 Z M102,28 L110,28 Q118,28 118,35 Q118,42 110,42 L102,42 Z" fill="" />
+    </g>
+
+    <g transform="translate(-15, -12)">
+      <ellipse cx="75" cy="62" rx="60" ry="10" fill="" stroke-width="0" />
+      <ellipse cx="75" cy="62" rx="10" ry="3" fill="#1a1a1a" />
+    </g>
+
+    <animateTransform attributeName="transform" type="translate" values="0 0; 365 0; 0 0" dur="7.12s" repeatCount="indefinite" additive="sum" />
+    
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 240; 0 0" dur="5.67s" repeatCount="indefinite" additive="sum" />
+    
+    <animate attributeName="fill" values="cyan;magenta;yellow;lime;cyan" dur="10s" repeatCount="indefinite" />
+  </g>
